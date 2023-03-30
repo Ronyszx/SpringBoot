@@ -14,9 +14,8 @@ public class StudentController {
         return Arrays.asList(
                 new StudentDetails("2KL19CS001", "Abhishek", "CSE"),
                 new StudentDetails("2KL19CS002", "Arun", "CSE"),
-                new StudentDetails("2KL19ME003", "Tom", "ME")
+                new StudentDetails("2KL19ME003", "Tom", "ME"),
+        new StudentDetails("2KL19ME004", "TomCat", "ME")
         );
     }
-
-
 }
